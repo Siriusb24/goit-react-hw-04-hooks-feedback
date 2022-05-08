@@ -9,8 +9,8 @@ export default function Statistics({
   totalCounter,
   totalPercentage,
 }) {
-  const totalFeedback = totalCounter();
-  const positivePercent = totalPercentage();
+  const totalFeedback = totalCounter;
+  const positivePercent = totalPercentage;
 
   return (
     <div>
